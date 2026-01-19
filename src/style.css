@@ -1,5 +1,59 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
-    background: white;
+body {
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Base card */
+.card {
+  background: white;
+  width: 300px;
+  height: 400px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 120px;
+  font-family: serif;
+}
+
+/* Suits */
+.heart {
+  color: red;
+}
+
+.diamond {
+  color: red;
+}
+
+.spade {
+  color: black;
+}
+
+.club {
+  color: black;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+input {
+  margin: 5px;
+  padding: 6px;
+  width: 120px;
+}
+
+#resize {
+  margin-left: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
 }
